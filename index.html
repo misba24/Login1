@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="form-box">
+    <h2>SignUp</h2>
+    <form action="SignUpServerlet" method="post">
+        <label for="username">Username</label><br>
+        <input type="text" id="username" name="username" placeholder="Enter User Name" required><br><br>
+
+        <label for="email">email</label><br>
+        <input type="text" id="email" name="email" placeholder="Enter your Email" required><br><br>
+ 
+        <label for="Mobile">phoneNumber</label><br>
+        <input type="number" id="mobile" name="mobile" placeholder="Enter your mobile number" required><br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter strong password" required><br><br>
+
+        <label for="confirmPassword">confirmPassword</label><br>
+        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Re-enter your password" required><br><br>
+
+        
+        <input type="submit" value="SignUp"/>
+    </form>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>
